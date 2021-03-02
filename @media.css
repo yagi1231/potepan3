@@ -1,7 +1,8 @@
 @media screen and (min-width: 1081px){
-body {
-  width:1081;
+.header-nav {
+  width:1400px;
 }
+
 .detail-cassette h4{
     width:300px;
     padding:4px;
@@ -85,8 +86,7 @@ height:200px;
 
 }
 .plan-box {
-  margin-top: 60px;
-  margin-left:200px;
+  margin: 60px 200px;
     padding: 40px;
     border-radius: 20px;
     background-color: #fcfaf5;
@@ -100,27 +100,7 @@ height:200px;
     margin-left:220px;
     
 }
-.footer-info {
-  left:300px;
-  position: relative;
-  bottom:300px;
-  font-size: 16px;
-  font-weight: bold;
-  color:white;
-  order:1;
-}
-.footer-nav {
-  order:2;
-  position:relative;
-  left:750px;
-}
-
-.footer-copyright {
-  margin-left:300px;
-  color:white;
-  position: relative;
-  bottom:200px;
-}   
+ 
    .under-header{
   background-image:url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/course-hero-pc.png);
   background-repeat: no-repeat;
@@ -143,33 +123,21 @@ height:200px;
 .detail-course-block-box {
     margin-top: 60px;
     margin-left: 300px;
-    width: 30%;
+    width: 70%;
     display: flex;
     text-align: center;
     background-color: #fffdfa;
     height: 600px;
 }
-.detail-course-box.rails {
-    position: relative;
-     left: 600px; 
-     bottom: 555px; 
+.detail-course-box {
+  margin-right:100px;
 }
+
 .plan {
 
   margin-top:50px;
 }
-.site-footer-button {
-    position: relative;
-    width: 50px;
-    height: 50px;
-    bottom: 100px;
-    right: 200px;
-    float: right;
-    border-radius: 50%;
-    background-color: #fff;
-    box-shadow: 0 12px 30px -15px;
-    transition: 0.2s;
-}
+
 .plan-cassettes-skipping-left img{
 
     width: 90px;
@@ -192,7 +160,9 @@ height:200px;
 }
 
 @media screen and (max-width: 1080px) {
-
+.header-nav {
+  width:1080px;
+}
 
 .site-header-right{
     display:none;
@@ -215,7 +185,7 @@ height:200px;
   letter-spacing: 3px;
   position:relative;
 padding-top: 30px;
-  left:200px;
+
 }
 
 .section-title { 
@@ -233,7 +203,7 @@ padding-top: 30px;
     cursor: pointer;
     display: block;
     position: relative;
-    right:50px;
+    right:100px;
     bottom:10px;
     width: 30px;
     height: 21px;
@@ -332,7 +302,7 @@ display:flex;
 display:-webkit-flex;
 }
 .plan-box {
-  margin-top: 60px;
+
   margin-left:100px;
     padding: 40px;
     border-radius: 20px;
@@ -340,30 +310,12 @@ display:-webkit-flex;
   width:70%;
 
 }
-.footer-info {
-  left:100px;
-  position: relative;
-  bottom:300px;
-  font-size: 16px;
-  font-weight: bold;
-  color:white;
-  order:1;
-}
-.footer-nav {
-  order:2;
-  position:relative;
-  left:400px;
-}
+
 .section-content-text.line >br{
   display: none;
 }
 
-.footer-copyright {
-  margin-left:100px;
-  color:white;
-  position: relative;
-  bottom:200px;
-}   
+  
    .under-header{
   background-image:url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/course-hero-pc.png);
   background-repeat: no-repeat;
@@ -382,36 +334,16 @@ display:-webkit-flex;
 .detail-cassette.image img{
   width:80%;
 }
-.detail-course-block-box {
-    margin-top: 60px;
-    margin-left: 300px;
-    width: 30%;
-    display: flex;
-    text-align: center;
-    background-color: #fffdfa;
-    height: 600px;
+
+.detail-course-box {
+  margin:0 100px;
 }
-.detail-course-box.rails {
-     position: relative; 
-     left: 600px; 
-     bottom: 555px; 
-}
+
 .plan {
 
   margin-top:50px;
 }
-.site-footer-button {
-    position: relative;
-    width: 50px;
-    height: 50px;
-    bottom: 100px;
-    right: 200px;
-    float: right;
-    border-radius: 50%;
-    background-color: #fff;
-    box-shadow: 0 12px 30px -15px;
-    transition: 0.2s;
-}
+
 .plan-cassettes-skipping-left img{
 
     width: 90px;
@@ -428,17 +360,42 @@ display:-webkit-flex;
     padding-top:20px;
    
 }
+.under-header.width h1 {
+  text-align: center;
+}
 }
 
 @media screen and (min-width: 1080px){
 .plan-cassettes-skipping-right>h4>br {
     display: none;
 }
+.detail-course-block-box {
+  margin-top:100px;
+    display: flex;
+    text-align: center;
+    background-color: #fffdfa;
+    height: 600px;
+}
+.site-footer-main .footer-info {
+    order: 1;
+}
+.site-footer-main .footer-character {
+    order: 3;
+    align-self: flex-end;
+}
+.site-footer-main .footer-nav {
+    order: 2;
+}
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 1079px){
 .under-decoration>br {
     display: block;
+}
+
+
+.header-nav {
+  width:767px;
 }
 .detail-cassette h4 {
     width: 100%;
@@ -468,16 +425,15 @@ display:-webkit-flex;
   font-weight: 900;
 }
 
-
 .under-header.width h1 {
 
   color: #fff;
   font-size: 40px;
   font-weight: bold;
   letter-spacing: 3px;
-  position:relative;
-
-  left:220px;
+  text-align: center;
+   display:block;
+ 
 }
 
 .under-header>url{
@@ -501,10 +457,9 @@ display:-webkit-flex;
 
 .detail-course-block-box {
   margin-top: 60px;
-position: relative;
-right:300px;
+
   width:100%;
-  display: flex;
+ 
     text-align: center;
       background-color:#fffdfa;
       height:600px;
@@ -544,61 +499,17 @@ right:300px;
   width:70%;
 
 }
-.footer-info {
-  left:300px;
-  position: relative;
-  top:10px;
-  font-size: 16px;
-  font-weight: bold;
-  color:white;
-  order:1;
-}
-.footer-nav {
-  order:2;
-  position:relative;
-  left:10px;
-  bottom:50px;
-}
 
-.footer-copyright {
-  margin-left:300px;
-  color:white;
-  position: relative;
-  top:30px;
-}  
 .detail-course-box.rails {
   position: static;
  
 }
-.footer-character img {
-    width: auto;
-    height: 70px;
-    float: right;
-    position: relative;
-    right: 350px;
-    bottom: 100px;
-}
+
 .section-title.plan.course{
 
   margin-top:500px;
 }
-.site-footer-button {
-    position: relative;
-    width: 50px;
-    height: 50px;
-    bottom: 100px;
-    right: 50px;
-    float: right;
-    border-radius: 50%;
-    background-color: #fff;
-    box-shadow: 0 12px 30px -15px;
-    transition: 0.2s;
-}
- .footer-character {
-    margin-top: 30px;
-    border-top: 1px solid #fff;
- 
-}
+
 .plan-cassettes-skipping-left img{
 
     width: 90px;
@@ -616,5 +527,75 @@ margin-left:200px;
     line-height: 26px;
     padding-top:20px;
     text-align: center;
+}
+.detail-course-box {
+  margin:0 ;
+}
+.site-footer{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.content-width {
+    max-width: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.page-top-button {
+  right:20px;
+    top: -85px;
+}
+.site-footer-main .footer-nav {
+    text-align: left;
+    margin-left: 20px;
+}
+.site-footer-main * + .footer-character {
+    margin-top: 50px;
+}
+.site-footer-main * + .footer-info {
+ 
+    padding-top: 30px;
+    border-top: 1px solid #fff;
+}
+.footer-info .footer-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hover-opacity {
+    transition: opacity 0.2s;
+}
+.footer-info .footer-company, .footer-info .footer-address {
+    text-align: center;
+}
+.footer-info {
+  position:relative;
+  top:400px;
+  right:250px;
+}
+.footer-info .footer-social {
+    justify-content: center;
+}
+.content-width {
+    max-width: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.site-footer {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    height:700px;
+}
+.footer-character > img {
+    width: auto;
+    height: 70px;
+ position:relative;
+ top:250px;
+}
+.footer-copyright {
+  text-align: center;
+  position:relative;
+  top:350px;
+ left:250px;
+ color:white;
 }
 }
