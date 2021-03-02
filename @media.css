@@ -1,0 +1,620 @@
+@media screen and (min-width: 1081px){
+body {
+  width:1081;
+}
+.detail-cassette h4{
+    width:300px;
+    padding:4px;
+  margin:0 auto;
+    border-radius: 15px;
+    color: #fff;
+    background-color: #222;
+}
+.section-header h1>br {
+  display:none;
+}
+.site-header-logo img { 
+  position: relative;
+  left:350px;
+  top:30px;
+}
+.under-header.width h1 {
+
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 3px;
+   padding-left: 450px;
+}
+.under-header.width {
+ margin:50px 0;
+}
+.detail-point {
+  margin-top: 100px;
+  padding: 40px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #fff;
+  height:600px;
+  width:70%;
+  margin:0 auto;
+  margin-top:100px;
+  height:auto;
+}
+.detail-course-block-box {
+  margin-top: 60px;
+margin-left:300px;
+  width:30%;
+  display: flex;
+    text-align: center;
+      background-color:#fffdfa;
+      height:600px;
+
+}
+.plan-cassettes-tool {
+  width:40%;
+  margin-left:70px;
+}
+.student-interview-box img{
+width:350px;
+height:200px;
+    object-fit: cover;
+ cursor: pointer;
+ transition:transform 0.3s;
+ border-radius: 50px;
+
+
+ }
+ .student-interview-box-header {
+    position: relative;
+    bottom: 150px;
+    padding: 80px 20px 15px;
+    background: -webkit-linear-gradient(to top, rgba(0, 0, 0, 0.8) 55%, rgba(30, 30, 30, 0.7), rgba(50, 50, 50, 0));
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 55%, rgba(30, 30, 30, 0.7), rgba(50, 50, 50, 0));
+}
+.student-interview-box {
+    overflow: hidden;
+  margin-left:50px;
+
+}
+.student-interview-box-text {
+    color: black;
+    font-weight: 900;
+    position: relative;
+   
+
+}
+.plan-box {
+  margin-top: 60px;
+  margin-left:200px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #fcfaf5;
+
+
+}
+
+.student-interview-box-list {
+ display: -webkit-flex;
+    display: flex;
+    margin-left:220px;
+    
+}
+.footer-info {
+  left:300px;
+  position: relative;
+  bottom:300px;
+  font-size: 16px;
+  font-weight: bold;
+  color:white;
+  order:1;
+}
+.footer-nav {
+  order:2;
+  position:relative;
+  left:750px;
+}
+
+.footer-copyright {
+  margin-left:300px;
+  color:white;
+  position: relative;
+  bottom:200px;
+}   
+   .under-header{
+  background-image:url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/course-hero-pc.png);
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1440px;
+}
+.section-title {
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.section-title  span {
+  font-size: 50px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+}
+.detail-cassette.image img{
+  width:80%;
+}
+.detail-course-block-box {
+    margin-top: 60px;
+    margin-left: 300px;
+    width: 30%;
+    display: flex;
+    text-align: center;
+    background-color: #fffdfa;
+    height: 600px;
+}
+.detail-course-box.rails {
+    position: relative;
+     left: 600px; 
+     bottom: 555px; 
+}
+.plan {
+
+  margin-top:50px;
+}
+.site-footer-button {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    bottom: 100px;
+    right: 200px;
+    float: right;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 12px 30px -15px;
+    transition: 0.2s;
+}
+.plan-cassettes-skipping-left img{
+
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    margin-right: 20px;
+    padding-top:10px;
+}
+.plan-cassettes-skipping-right>h4 {
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 26px;
+    padding-top:20px;
+
+}
+.plan-cassettes-skipping-right>h4>br {
+    display: none;
+}
+}
+
+@media screen and (max-width: 1080px) {
+
+
+.site-header-right{
+    display:none;
+}
+
+.student-interview-box-text>br {
+  display: none;
+}
+
+.student-interview-box img{
+  border-radius:50px;
+  height:200px;
+}
+
+.under-header.width h1 {
+
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  position:relative;
+padding-top: 30px;
+  left:200px;
+}
+
+.section-title { 
+    margin-top:50px;
+}
+.section-header h1>br {
+  display:none;
+}
+.under-header.afterline {
+    position:relative;
+    
+}
+
+.header-nav .header-nav-hamburger {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    right:50px;
+    bottom:10px;
+    width: 30px;
+    height: 21px;
+    z-index: 100;
+float:right;
+
+}
+.header-nav .header-nav-list {
+    overflow-y: scroll;
+    position: fixed;
+    top: 60px;
+    left: 100%;
+    width: 100%;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 75px;
+    transition: transform 0.5s;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.8);
+    -webkit-overflow-scrolling: touch;
+}
+.site-header-logo img { 
+    position:relative;
+    top:20px;
+    left:20px;
+}
+.site-header {
+    position: fixed;
+    background-color: #fff;
+    z-index: 10;
+    width: 1080px;
+    
+}
+.header-nav .header-nav-hamburger-line {
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #222;
+    transform: translate(0, -50%);
+    border-radius: 10px;
+    transition: top 0.2s, transform 0.2s, opacity 0.3s;
+}
+.header-nav .header-nav-hamburger-line:first-child {
+    top: 0;
+}
+  .header-nav .header-nav-hamburger-line:last-child {
+    top: 100%;
+}  
+.detail-point {
+  margin-top: 100px;
+  padding: 40px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #fff;
+  height:600px;
+
+  margin:0 auto;
+  margin-top:100px;
+  height:auto;
+}
+
+.plan-cassettes-tool {
+  width:40%;
+  margin-left:70px;
+}
+.plan-cassettes-tool img{
+  width:100%;
+
+
+}
+.student-interview-box img{
+width: 90%;
+    object-fit: cover;
+ cursor: pointer;
+ transition:transform 0.3s;
+
+ }
+
+.student-interview-box {
+    overflow: hidden;
+    float:left;
+    margin-left:30px;
+  
+    
+}
+.student-interview-box-text {
+    color: black;
+    font-weight: 900;
+    position: relative;
+   
+}
+.student-interview-box-list {
+display:flex;
+display:-webkit-flex;
+}
+.plan-box {
+  margin-top: 60px;
+  margin-left:100px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #fcfaf5;
+  width:70%;
+
+}
+.footer-info {
+  left:100px;
+  position: relative;
+  bottom:300px;
+  font-size: 16px;
+  font-weight: bold;
+  color:white;
+  order:1;
+}
+.footer-nav {
+  order:2;
+  position:relative;
+  left:400px;
+}
+.section-content-text.line >br{
+  display: none;
+}
+
+.footer-copyright {
+  margin-left:100px;
+  color:white;
+  position: relative;
+  bottom:200px;
+}   
+   .under-header{
+  background-image:url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/course-hero-pc.png);
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1000px;
+}
+.detail-cassette h4 {
+    width: 300px;
+    padding: 4px;
+    border-radius: 15px;
+    color: #fff;
+    background-color: #222;
+   margin:0 auto;
+   
+}
+.detail-cassette.image img{
+  width:80%;
+}
+.detail-course-block-box {
+    margin-top: 60px;
+    margin-left: 300px;
+    width: 30%;
+    display: flex;
+    text-align: center;
+    background-color: #fffdfa;
+    height: 600px;
+}
+.detail-course-box.rails {
+     position: relative; 
+     left: 600px; 
+     bottom: 555px; 
+}
+.plan {
+
+  margin-top:50px;
+}
+.site-footer-button {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    bottom: 100px;
+    right: 200px;
+    float: right;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 12px 30px -15px;
+    transition: 0.2s;
+}
+.plan-cassettes-skipping-left img{
+
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    margin-right: 20px;
+    padding-top:10px;
+}
+.plan-cassettes-skipping-right>h4 {
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 26px;
+    padding-top:20px;
+   
+}
+}
+
+@media screen and (min-width: 1080px){
+.plan-cassettes-skipping-right>h4>br {
+    display: none;
+}
+}
+
+@media screen and (max-width: 767px){
+.under-decoration>br {
+    display: block;
+}
+.detail-cassette h4 {
+    width: 100%;
+    padding: 4px;
+    border-radius: 15px;
+    color: #fff;
+    background-color: #222;
+    margin:0 auto;
+}
+.detail-cassette.image img{
+  width:100%;
+}
+
+.detail-box.contents-tidy {
+  display: block;
+}
+.section-title {
+    text-align: center;
+    font-size: 26px !important;
+    line-height: 1.2;
+}
+
+.section-title  span {
+  letter-spacing: 1px;
+    font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+}
+
+
+.under-header.width h1 {
+
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  position:relative;
+
+  left:220px;
+}
+
+.under-header>url{
+ display: none;
+}
+.site-header {
+    position: fixed;
+    background-color: #fff;
+    z-index: 10;
+    width: 767px;
+}
+
+.under-header {
+    background-size: 700px;
+    background-repeat: no-repeat;
+    padding-top: 42px;
+   
+    background-size: contain;
+     background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/course-hero-sp.png);
+}
+
+.detail-course-block-box {
+  margin-top: 60px;
+position: relative;
+right:300px;
+  width:100%;
+  display: flex;
+    text-align: center;
+      background-color:#fffdfa;
+      height:600px;
+    
+
+}
+
+.plan-cassettes-tool {
+  width:100%;
+  margin-right:100px;
+}
+.student-interview-box img{
+
+    object-fit: cover;
+ cursor: pointer;
+ transition:transform 0.3s;
+
+ }
+
+.student-interview-box {
+    overflow: hidden;
+    float:left;
+    margin-left:50px;
+    
+}
+.student-interview-box-text {
+    color: black;
+    font-weight: 900;
+   
+}
+.plan-box {
+  margin-top: 60px;
+  margin-right:200px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #fcfaf5;
+  width:70%;
+
+}
+.footer-info {
+  left:300px;
+  position: relative;
+  top:10px;
+  font-size: 16px;
+  font-weight: bold;
+  color:white;
+  order:1;
+}
+.footer-nav {
+  order:2;
+  position:relative;
+  left:10px;
+  bottom:50px;
+}
+
+.footer-copyright {
+  margin-left:300px;
+  color:white;
+  position: relative;
+  top:30px;
+}  
+.detail-course-box.rails {
+  position: static;
+ 
+}
+.footer-character img {
+    width: auto;
+    height: 70px;
+    float: right;
+    position: relative;
+    right: 350px;
+    bottom: 100px;
+}
+.section-title.plan.course{
+
+  margin-top:500px;
+}
+.site-footer-button {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    bottom: 100px;
+    right: 50px;
+    float: right;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 12px 30px -15px;
+    transition: 0.2s;
+}
+ .footer-character {
+    margin-top: 30px;
+    border-top: 1px solid #fff;
+ 
+}
+.plan-cassettes-skipping-left img{
+
+    width: 90px;
+    height: 90px;
+    float: initial;
+ 
+    height: initial;
+margin-left:200px;
+   
+}
+.plan-cassettes-skipping-right>h4 {
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 26px;
+    padding-top:20px;
+    text-align: center;
+}
+}
