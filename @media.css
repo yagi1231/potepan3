@@ -157,6 +157,15 @@ height:200px;
 .plan-cassettes-skipping-right>h4>br {
     display: none;
 }
+.section-content-text.line {
+    background: linear-gradient(transparent 70%, #fff79d 70%, #fff79d);
+    margin: 0 auto;
+    width:35%;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    word-wrap: break-word;
+}
 }
 
 @media screen and (max-width: 1080px) {
@@ -363,6 +372,7 @@ display:-webkit-flex;
 .under-header.width h1 {
   text-align: center;
 }
+
 }
 
 @media screen and (min-width: 1080px){
@@ -393,6 +403,15 @@ display:-webkit-flex;
     display: block;
 }
 
+.section-content-text.line {
+    background: linear-gradient(transparent 70%, #fff79d 70%, #fff79d);
+    margin: 0 auto;
+    width:35%;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    word-wrap: break-word;
+}
 
 .header-nav {
   width:767px;
@@ -597,5 +616,104 @@ margin-left:200px;
   top:350px;
  left:250px;
  color:white;
+}
+.plan-box {
+    margin-left: 100px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #fcfaf5;
+    width: 70%;
+}
+
+}
+
+@media screen and (max-width: 765px) {
+  
+.section-title.plan.course {
+    margin-top: 700px;
+  }
+  
+  .plan-cassettes-skipping-left img {
+    width: 90px;
+    height: 90px;
+    float: initial;
+    height: initial;
+    margin-left: 50px;
+}
+  
+  .site-header {
+    width:auto;
+  }
+  
+  .plan-box {
+    margin-left: 30px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #fcfaf5;
+    width: 70%;
+}
+.section-content-text.line {
+    background: linear-gradient(transparent 70%, #fff79d 70%, #fff79d);
+    margin: 0 auto;
+    width:100%;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+.site-footer {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    height: 900px;
+}
+.plan-cassettes-tool img {
+    width: 200px;
+}
+.plan-cassettes-tool {
+   
+  margin-left:0px;
+}
+.header-nav .header-nav-hamburger {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    right: 300px;
+    bottom: 10px;
+    width: 30px;
+    height: 21px;
+    z-index: 100;
+    float: right;
+}
+.footer-copyright {
+    text-align: center;
+    position: relative;
+    top: 350px;
+   left:100px;
+    color: white;
+}
+.footer-info {
+    position: relative;
+margin-top:200px;
+right:130px;
+}
+.footer-character > img {
+    width: auto;
+    height: 70px;
+    position: relative;
+    top: 450px;
+}
+.footer-nav-item{
+width:200px;
+}
+.header-nav .header-nav-hamburger {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    right: 400px;
+    bottom: 10px;
+    width: 30px;
+    height: 21px;
+    z-index: 100;
+    float: right;
 }
 }
